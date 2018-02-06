@@ -30,4 +30,4 @@ def new():
 	response.headers['Content-Type'] = 'image/png'
 	return response
 
-app.run(port=1000,debug=True)
+app.run()
